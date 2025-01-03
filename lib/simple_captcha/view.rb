@@ -133,7 +133,7 @@ module SimpleCaptcha #:nodoc
       end
 
       def generate_simple_captcha_data(code)
-        value = ''
+        value = String.new
 
         case code
           when 'numeric' then
